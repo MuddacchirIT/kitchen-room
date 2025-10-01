@@ -1,7 +1,10 @@
+import Navbar from "./components/Navbar";
 const App = () => {
   return (
     <div>
-      <h1>Hi, React</h1>
+      <header className="w-11/12 mx-auto py-3">
+        <Navbar />
+      </header>
     </div>
   );
 };
